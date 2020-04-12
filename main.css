@@ -1,0 +1,90 @@
+body {
+  width: 400px;
+}
+#teesco {
+  font-family: "Lobster Two", cursive;
+  font-size: 36px;
+}
+.demo-card-wide.mdl-card {
+  width: 400px;
+}
+
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url("astro.jpg") center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+.mdl-card__title-text {
+  text-shadow: 3px 3px 3px #333;
+  font-weight: 600;
+  font-size: 32px;
+}
+.notification {
+  display: flex;
+  flex-direction: row;
+  background-color: #ddd;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  position: relative;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.link {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 12px;
+  padding-left: 8px;
+}
+.icon {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#cancel {
+  position: absolute;
+  left: 87%;
+  top: 5px;
+}
+
+#move {
+  margin-bottom: -3px;
+}
+#share {
+  color: rgb(235, 235, 235);
+  font-size: 16px;
+}
+#i {
+  margin-left: 40px;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#h {
+  margin-right: 40px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#screenshot {
+  color: rgb(235, 235, 235);
+  font-size: 16px;
+}
+
+.mdl-chip {
+  background-color: rgb(238, 15, 119);
+}
+#i:hover {
+  background-color: rgb(179, 0, 83);
+
+  transition: 0.3s;
+}
+#h:hover {
+  background-color: rgb(179, 0, 83);
+
+  transition: 0.3s;
+}
